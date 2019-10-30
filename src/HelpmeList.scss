@@ -1,0 +1,49 @@
+.helpme__list {
+    display: none;
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    top: 40px;
+    right: 0;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    overflow: hidden;
+
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.helpme__list--open {
+    display: flex;
+}
+
+.helpme__list__title {
+    padding: 20px;
+    font-size: 20px;
+    background-color: darkslateblue;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.helpme__list__instructions {
+    width: 100%;
+}
+
+.helpme__list__item {
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        background-color: lightgrey;
+    }
+}

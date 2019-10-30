@@ -1,0 +1,20 @@
+.helpme__button {
+    padding: 10px 15px;
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+    border: 1px solid blue;
+
+    transition: all 240ms ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        outline: none;
+        color: white;
+        background-color: blue;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
